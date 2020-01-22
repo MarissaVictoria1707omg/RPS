@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #381460;
+}
+header {
+    background: #ffffff;
+    padding: 10px;
+}
+header > h1 {
+    color: #a278b5;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 37px;
+}
+.scores {
+    margin: 20px auto;
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    width: 170px;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 15px 15px;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+}
+.comp {
+    margin: 30px auto;
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    width: 300px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+.badge {
+    background: #a278b5;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2px 10px;
+    font-family: 'Pacifico', cursive;
+}
+#user {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+#computer {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+.result {
+    font-size: 30px;
+    color: #ffffff;
+}
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.choices {
+    margin: 10px;
+    text-align: center;
+}
+.choice {
+    border: 6px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background: #a278b5;
+}
